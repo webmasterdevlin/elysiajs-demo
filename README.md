@@ -14,6 +14,31 @@ bun run dev
 
 Open http://localhost:3000/ with your browser to see the result.
 
+### Update to latest npm
+```bash
+npm install -g npm@latest
+```
+
+### How to install bun globally
+```bash
+npm install -g @bun/cli
+```
+
+### How to install pnpm globally
+```bash
+npm install -g @pnpm/exe
+```
+
+### How to install yarn globally
+```bash
+npm install -g yarn
+```
+
+#### latest yarn inside a project
+```bash
+yarn set version stable
+yarn install
+```
 
 ### package manager benchmarking
 ```bash
