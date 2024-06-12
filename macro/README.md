@@ -1,4 +1,4 @@
 ### to bundle
 ```bash
-bun build ./main.tsx
+bun build ./main.tsx --outdir ./out
 ```
