@@ -13,3 +13,9 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+
+### package manager benchmarking
+```bash
+hyperfine --prepare 'rm -rf node_modules' --warmup 1 --runs 3 'yarn install' 'bun install' 'pnpm install' 'npm install'
+```
