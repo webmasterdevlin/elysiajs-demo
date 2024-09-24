@@ -1,19 +1,23 @@
 ## Benchmark for jest, vitest, and bun test runners
+
 - global vitest, jest, and bun are needed to be installed
 
 vitest
+
 ```zsh
-npm install -g vitest
+npm install -g vitest@latest
 ```
 
 jest
+
 ```zsh
-npm install -g jest
+npm install -g jest@latest
 ```
 
 bun
+
 ```zsh
-npm install -g bun
+npm install -g bun@latest
 ```
 
 #### To run the benchmark

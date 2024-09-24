@@ -9,6 +9,7 @@ cd ..
 ```
 
 - run the binary
+
 ```zsh
 cd zig
 ./math
