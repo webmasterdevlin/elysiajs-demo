@@ -1,8 +1,4 @@
 {
-  "module": "src/index.js",
-  "scripts": {
-    "dev": "bun run --watch src/index.ts"
-  },
   "dependencies": {
     "@conform-to/react": "^1.1.5",
     "@conform-to/zod": "^1.1.5",
@@ -38,6 +34,7 @@
     "crypto-js": "^4.2.0",
     "date-fns": "^3.6.0",
     "dotenv": "^16.4.5",
+    "elysia": "^1.1.16",
     "execa": "^9.3.0",
     "express": "^4.19.2",
     "express-rate-limit": "^7.3.1",
