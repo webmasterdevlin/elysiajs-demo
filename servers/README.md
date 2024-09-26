@@ -13,6 +13,7 @@ Bun installation
 
 
 ### Run the 3 servers first
+- go to the servers directory one by one and run the following commands
 
 #### To run bun (elysiajs) server
 ```zsh
