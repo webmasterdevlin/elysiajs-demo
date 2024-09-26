@@ -11,7 +11,28 @@ Deno installation
 Bun installation
 - https://bun.sh/docs/installation
 
-#### To run
+
+### Run the 3 servers first
+
+#### To run bun (elysiajs) server
+```zsh
+bun dev
+```
+
+
+#### To run deno (fresh) server
+```zsh
+deno task start
+```
+
+
+#### To run nodejs (express) server
+```zsh
+npm start
+```
+
+
+#### Then run hyperfine to benchmark the 3 servers
 ```zsh
 hyperfine --runs 1 'zsh ./node_server.sh' 'zsh ./deno_server.sh' 'zsh ./bun_server.sh'
 ```
