@@ -39,12 +39,12 @@ npm i -g @pnpm/exe@latest
 ### latest yarn inside a project
 
 ```bash
-yarn set version stable
+yarn config set initScope myScope
 yarn i
 ```
 
 ### package manager benchmarking
 
 ```bash
-hyperfine --prepare 'rm -rf node_modules' --warmup 1 --runs 3 'npm install' 'bun install' 'pnpm install' 'yarn install'
+hyperfine --prepare 'rm -rf node_modules' --warmup 1 --runs 1 'npm install' 'bun install' 'pnpm install' 'yarn install'
 ```
