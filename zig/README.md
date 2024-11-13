@@ -1,4 +1,6 @@
 ## Zig
+- installation
+https://ziglang.org/learn/getting-started/
 
 - build the zig file
 
