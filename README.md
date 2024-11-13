@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+
+Install hyperfine for different OS
+- https://github.com/sharkdp/hyperfine
+
 To get started with this template, simply paste this command into your terminal:
 
 ```bash
