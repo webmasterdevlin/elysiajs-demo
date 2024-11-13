@@ -6,7 +6,7 @@ Nodejs installation
 - https://nodejs.org
 
 Deno installation
-- https://docs.deno.com/runtime/manual/getting_started/installation
+- https://docs.deno.com/runtime
 
 Bun installation
 - https://bun.sh/docs/installation
