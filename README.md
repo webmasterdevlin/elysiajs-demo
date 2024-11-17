@@ -41,10 +41,13 @@ npm i -g @pnpm/exe@latest
 ```
 
 ### latest yarn inside a project
-
+- see https://yarnpkg.com/migration/guide
+```bash
+corepack enable
+```
 ```bash
 yarn config set initScope myScope
-yarn i
+yarn install
 ```
 
 ### package manager benchmarking
