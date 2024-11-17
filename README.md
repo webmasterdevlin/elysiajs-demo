@@ -40,11 +40,17 @@ npm i -g bun@latest
 npm i -g @pnpm/exe@latest
 ```
 
+
+
 ### latest yarn inside a project
 - see https://yarnpkg.com/migration/guide
+- Yarn v4 is a bit complicated to set up because you need to enable corepack which removes pnpm from the global installed dependencies.
+- You can install include yarn in the benchmarking test but it will the classic yarn and not the latest yarn v4.
+
 ```bash
 corepack enable
 ```
+
 ```bash
 yarn config set initScope myScope
 yarn install
