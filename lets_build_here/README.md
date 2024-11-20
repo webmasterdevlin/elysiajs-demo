@@ -2,12 +2,6 @@
 
 To do this, you have to install each bundler globally.
 
-use node v23.0.0
-
-```zsh
-nvm use 23.0.0
-```
-
 parcel
 
 ```zsh
@@ -42,6 +36,12 @@ webpack
 
 ```zsh
 npm i -g webpack-cli@latest
+```
+
+NOTE: use node v23.0.0
+
+```zsh
+nvm use 23.0.0
 ```
 
 ```zsh
