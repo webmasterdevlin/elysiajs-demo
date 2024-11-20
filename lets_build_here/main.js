@@ -1,5 +1,5 @@
 // Function to generate Fibonacci sequence up to n numbers
-function fibonacci(n) {
+export function fibonacci(n) {
   let fibSequence = [0, 1];
   for (let i = 2; i < n; i++) {
     fibSequence.push(fibSequence[i - 1] + fibSequence[i - 2]);
@@ -8,7 +8,7 @@ function fibonacci(n) {
 }
 
 // Function to check if a number is prime
-function isPrime(num) {
+export function isPrime(num) {
   if (num <= 1) return false;
   if (num <= 3) return true;
 
@@ -24,7 +24,7 @@ function isPrime(num) {
 }
 
 // Function to calculate factorial of a number
-function factorial(n) {
+export function factorial(n) {
   if (n === 0 || n === 1) return 1;
   let result = 1;
   for (let i = 2; i <= n; i++) {
@@ -34,7 +34,7 @@ function factorial(n) {
 }
 
 // Function to generate random numbers
-function generateRandomNumbers(count) {
+export function generateRandomNumbers(count) {
   const randomNumbers = [];
   for (let i = 0; i < count; i++) {
     randomNumbers.push(Math.random());
@@ -43,12 +43,12 @@ function generateRandomNumbers(count) {
 }
 
 // Function to sort an array of numbers
-function sortNumbers(numbers) {
+export function sortNumbers(numbers) {
   return numbers.sort((a, b) => a - b);
 }
 
 // Function to reverse a string
-function reverseString(str) {
+export function reverseString(str) {
   return str.split("").reverse().join("");
 }
 
